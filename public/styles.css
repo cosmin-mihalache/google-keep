@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: rgba(223, 219, 219, 0.651);
+}
+
+header {
+  background-color: rgb(255, 187, 0);
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.112);
+}
+
+header h1 {
+  color: white;
+  font-size: 3rem;
+  font-family: "McLaren", cursive;
+  font-weight: 400;
+  padding: 1rem 2rem;
+}
+
+footer p {
+  width: 100%;
+  font-size: 1.5rem;
+  color: rgba(128, 128, 128, 0.719);
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+}
+
+.note-box {
+  margin: 1rem 2rem;
+  min-width: 200px;
+  background-color: white;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  line-height: 2rem;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.112);
+  float: left;
+}
+
+.note-box h2 {
+  font-size: 1.5rem;
+}
+
+.note-box p {
+  font-size: 1.2rem;
+}
