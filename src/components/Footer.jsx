@@ -5,7 +5,7 @@ function Footer() {
     console.log(time);
   return (
     <footer>
-<p>Copyright ⓒ {time}</p>
+      <p>Copyright ⓒ {time}</p>
     </footer>
   );
 }
