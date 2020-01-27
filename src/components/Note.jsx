@@ -1,4 +1,5 @@
 import React from "react";
+import DeleteSweepIcon from '@material-ui/icons/DeleteSweep';
 
 function Note(props) {
   function handlesClick() {
@@ -9,7 +10,9 @@ function Note(props) {
     <div className="note-box">
       <h2>{props.title}</h2>
       <p>{props.content}</p>
-      <button onClick={handlesClick} >Delete</button>
+      <button onClick={handlesClick}>
+        <DeleteSweepIcon />
+      </button>
     </div>
   );
 }
