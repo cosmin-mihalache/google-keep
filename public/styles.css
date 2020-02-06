@@ -56,7 +56,6 @@ textarea {
   font-size: 1.5rem;
   font-family: inherit;
   resize: none;
-  background-image: url("https://www.transparenttextures.com/patterns/foggy-birds.png");
 }
 
 form.new-note button {
@@ -86,7 +85,6 @@ form.new-note button {
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.112);
   float: left;
   position: relative;
-  background-image: url("https://www.transparenttextures.com/patterns/foggy-birds.png");
 }
 
 .note-box h2 {
